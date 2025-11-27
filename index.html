@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Violentómetro Psicológico — Glassy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="brand">EL VIOLENTÓMETRO DE SOTODE</div>
+            <div class="title-wrap">
+                <div class="title">Identifica la violencia psicológica</div>
+                <div class="subtitle">Herramienta visual para reconocer señales y actuar a tiempo</div>
+            </div>
+        </div>
+
+        <div class="layout">
+
+            <!-- Columna izquierda -->
+            <div class="col">
+                <div class="h">👁️ Señales que puedes estar normalizando</div>
+                <div class="chips">
+                    <div class="chip">Bromas hirientes</div>
+                    <div class="chip">Sarcasmo constante</div>
+                    <div class="chip">Minimizar emociones</div>
+                    <div class="chip">Celos disfrazados</div>
+                </div>
+                <div class="quote">
+                    “La violencia incluye el uso intencional de la fuerza o del poder —amenazado o real— que puede causar daño psicológico” (OMS, 2002).
+                </div>
+            </div>
+
+            <!-- Centro: niveles + termómetro -->
+            <div class="thermo-wrap">
+
+                <!-- Niveles -->
+                <div class="levels">
+                    <div class="level-card level-1">
+                        <div class="icon" aria-hidden>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M12 21s-7-4.5-9-8.5C0 7.5 4 4 7 6c1 1 2 2 5 5 3-3 4-4 5-5 3-2-7 1.5-8 6.5C19 16.5 12 21 12 21z" stroke="#2f4858" stroke-width="0.8" opacity="0.9"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>💜 Nivel 1 · Advertencia leve</h4>
+                            <p>Comentarios que parecen broma, minimizar lo que sientes, correcciones constantes.</p>
+                        </div>
+                    </div>
+
+                    <div class="level-card level-2">
+                        <div class="icon" aria-hidden>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M12 21s-4.5-3.5-7-7C1.5 9.5 4 5.5 7.5 7c1.5.6 2.5 1.6 4.5 3.5 2-2 3-2.9 4.5-3.5C20 5.5 22.5 9.5 19 14c-2.5 3.5-7 7-7 7z" stroke="#3b2a58" stroke-width="0.8"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>💔 Nivel 2 · Desgaste emocional</h4>
+                            <p>Culparte por su estado anímico, controlar amistades, alternar cariño con frialdad.</p>
+                        </div>
+                    </div>
+
+                    <div class="level-card level-3">
+                        <div class="icon" aria-hidden>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M12 3l9 16H3L12 3z" stroke="#3b2a58" stroke-width="0.9"/>
+                                <path d="M12 9v6" stroke="#3b2a58" stroke-width="1"/>
+                                <circle cx="12" cy="18" r="0.6" fill="#3b2a58"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>🚨 Nivel 3 · Alto riesgo</h4>
+                            <p>Insultos, humillaciones, aislamiento social, amenazas y conducta peligrosa.</p>
+                        </div>
+                    </div>
+
+                    <div class="level-card level-4">
+                        <div class="icon" aria-hidden>
+                            <svg viewBox="0 0 24 24" fill="none">
+                                <path d="M12 21s-4.5-3.5-7-7C1.5 9.5 4 5.5 7.5 7c1.5.6 2.5 1.6 4.5 3.5 2-2 3-2.9 4.5-3.5C20 5.5 22.5 9.5 19 14c-2.5 3.5-7 7-7 7z" stroke="#3b2a58" stroke-width="0.8"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <h4>⛔ Nivel 4 · Crítico extremo</h4>
+                            <p>Riesgo de daño grave, amenazas de muerte, inducción al suicidio o aislamiento extremo.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Termómetro -->
+                <div class="thermo">
+                    <div class="thermo-shell" role="img" aria-label="Termómetro">
+                        <div class="fill animate">
+                            <div class="seg seg4"></div>
+                            <div class="seg seg3"></div>
+                            <div class="seg seg2"></div>
+                            <div class="seg seg1"></div>
+                        </div>
+                    </div>
+                    <div class="thermo-bulb"></div>
+                </div>
+
+            </div>
+
+            <!-- Columna derecha -->
+            <div class="col">
+                <div class="h">📌 Efectos en tu bienestar</div>
+                <p>Baja autoestima, ansiedad, aislamiento, fatiga emocional y riesgo de trastornos mentales.</p>
+
+                <div class="h" style="margin-top:18px;">🛟 ¿Qué puedes hacer?</div>
+                <ul>
+                    <li>Habla con alguien de confianza.</li>
+                    <li>Establece límites claros.</li>
+                    <li>Busca asesoría profesional si es necesario.</li>
+                    <li>Aléjate si tu seguridad está en riesgo.</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Referencias -->
+        <p class="refs">
+            <strong>Referencias:</strong><br>
+            Gobierno de México, UNRC (2025). Perspectiva de género — Módulo 2.<br>
+            Organización Mundial de la Salud (2002). World report on violence and health.
+        </p>
+
+    </div>
+</body>
+</html>

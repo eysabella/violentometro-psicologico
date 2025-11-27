@@ -205,3 +205,112 @@ body {
         grid-template-columns: 1fr;
     }
 }
+/* =============================
+   RESPONSIVE PARA CELULARES
+============================= */
+@media (max-width: 650px) {
+
+    body {
+        padding: 14px;
+    }
+
+    .container {
+        padding: 16px;
+    }
+
+    /* HEADER: de horizontal → vertical */
+    .header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .subtitle {
+        font-size: 0.85rem;
+    }
+
+    /* LAYOUT: todo en 1 columna */
+    .layout {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+
+    .col {
+        padding: 12px;
+    }
+
+    /* TERMÓMETRO: más compacto */
+    .thermo-wrap {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .thermo {
+        width: 80px;
+        height: auto;
+    }
+
+    .thermo-shell {
+        width: 32px;
+        height: 260px;
+    }
+
+    .thermo-bulb {
+        width: 54px;
+        height: 54px;
+    }
+
+    /* Tarjetas de niveles más delgadas */
+    .level-card {
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    /* Texto más legible en pantallas pequeñas */
+    .chip {
+        font-size: 0.78rem;
+        padding: 5px 9px;
+    }
+
+    .h {
+        font-size: 0.95rem;
+    }
+
+    .refs {
+        font-size: 0.78rem;
+        text-align: center;
+    }
+}
+
+/* =============================
+   RESPONSIVE CELULARES MUY PEQUEÑOS
+   (iPhone SE, Android 320px)
+============================= */
+@media (max-width: 400px) {
+
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .level-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .icon {
+        margin-bottom: 6px;
+    }
+}
+
